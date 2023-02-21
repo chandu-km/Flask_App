@@ -16,7 +16,8 @@ def math_ops():
         num2 = int(request.form['num2'])
         if ops == 'add':
             r = num1+num2
-            result = "The sum of " + str(num1) + 'and ' + str(num2) + "is " + str(r)
+            result = "The sum of " + str(num1) + 'and ' + str(nus
+            m2) + "is " + str(r)
         if ops == 'subtract':
             r = num1-num2
             result = "The subtract of " + str(num1) + 'and ' + str(num2) + "is " + str(r)
